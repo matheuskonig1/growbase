@@ -1,18 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <ul>
-          <li>item a</li>
-          <li>item a</li>
-          <li>item a</li>
+    <div className="mt-3">
+        <ul className='list-group'>
+          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
+          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
+          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
         </ul>
-      </header>
     </div>
   );
 }
