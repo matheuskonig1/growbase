@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://shiny-buttercream-377ac5.netlify.app/no-bg.png" height="300" width="300"/> </p>
+<p align="center"> <img src="https://shiny-buttercream-377ac5.netlify.app/no-bg33.png" height="300" width="300"/> </p>
 <p align="center"> Sistema de Lista de Recados utilizando ReactJs e Typescript.</p>
 <h1> 🚀 Tecnologias </h1>
 <p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p>
