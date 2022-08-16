@@ -1,15 +1,20 @@
 import React from 'react';
+import { Navbar } from './components/Navbar/Navbar'
+import { Heroes } from './components/Heroes/Heroes'
+import { Cards } from './components/Cards/Cards'
+import { Pricing } from './components/Pricing/Pricing'
+import { Footer } from './components/Footer/Footer'
 import './App.css';
 
 function App() {
   return (
-    <div className="mt-3">
-        <ul className='list-group'>
-          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
-          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
-          <li className='list-group-item bg-dark text-white border border-light'>item a</li>
-        </ul>
-    </div>
+    <>
+      <Navbar/>
+      <Heroes/>
+      <Cards/>
+      <Pricing/>
+      <Footer/>
+    </>
   );
 }
 

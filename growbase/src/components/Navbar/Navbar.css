@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap');
+.title {
+    font-family: 'Righteous', cursive;
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    letter-spacing: 7px;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Cairo', sans-serif;
+
+}
