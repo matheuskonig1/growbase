@@ -18,7 +18,7 @@ const Pricing:any = () => {
                         <li className="text-light">Suporte via e-mail.</li>
                         <li className="text-light">Acesso ao HelpDesk.</li>
                         </ul>
-                        <button type="button" className="w-100 btn btn-lg btn-outline-warning">Sign up for free</button>
+                        <button type="button" className="w-100 btn btn-lg btn-outline-warning">Inscrever-se gratuitamente</button>
                     </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Pricing:any = () => {
                         <li className="text-light">Suporte prioritário via e-mail e whatsapp.</li>
                         <li className="text-light">Acesso ao HelpDesk.</li>
                         </ul>
-                        <button type="button" className="w-100 btn btn-lg btn-warning">Iniciar agora!</button>
+                        <button type="button" className="w-100 btn btn-lg btn-warning">Iniciar agora</button>
                     </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Pricing:any = () => {
                         <li className="text-light">Suporte em calls, whatsapp e e-mail.</li>
                         <li className="text-light">Acesso ao HelpDesk.</li>
                         </ul>
-                        <button type="button" className="w-100 btn btn-lg btn-warning">Entre em contato conosco.</button>
+                        <button type="button" className="w-100 btn btn-lg btn-warning">Entrar em contato com a Grow</button>
                     </div>
                     </div>
                 </div>
