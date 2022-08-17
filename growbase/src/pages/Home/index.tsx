@@ -8,11 +8,15 @@ import { Footer } from '../../components/Footer/Footer';
 function Home() {
   return (
     <>
-      <Navbar/>
-      <Heroes/>
-      <Cards/>
-      <Pricing/>
-      <Footer/>
+      <div className="container">
+        <div className="row">
+          <Navbar/>
+          <Heroes/>
+          <Cards/>
+          <Pricing/>
+          <Footer/>
+        </div>
+      </div>
     </>
   );
 }

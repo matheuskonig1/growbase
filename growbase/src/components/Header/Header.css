@@ -1,0 +1,8 @@
+.mysidebar  {
+    height: 100% !important;
+    position: absolute;
+}
+
+.active {
+    background-color: #ffc107!important;
+}

@@ -8,9 +8,5 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <div className='container'>
-    <div className='row'>
       <App />
-    </div>
-  </div>
 );

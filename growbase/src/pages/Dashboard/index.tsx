@@ -1,11 +1,13 @@
 import React from 'react';
-import { Navbar } from '../../components/Navbar/Navbar';
+import {Header} from "../../components/Header/Header";
+import {Table} from "../../components/Table/Table";
+
 
 function Dashboard() {
   return (
     <>
-      <Navbar/>
-      <h1> Você está na Dashboard.</h1>
+      <Header />
+      <Table />
     </>
   );
 }
