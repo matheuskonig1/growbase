@@ -1,13 +1,12 @@
 import React from 'react';
-import { Navbar } from '../../components/Navbar/Navbar';
+import { LoginForm } from '../../components/LoginForm/LoginForm';
 
-function Logout() {
+function Login() {
   return (
-    <>
-      <Navbar/>
-      <h1> Você está na Logout.</h1>
+    <>             
+      <LoginForm></LoginForm>            
     </>
   );
 }
 
-export default Logout;
+export default Login;
