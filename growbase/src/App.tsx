@@ -1,19 +1,23 @@
 import React from 'react';
-import { Navbar } from './components/Navbar/Navbar'
-import { Heroes } from './components/Heroes/Heroes'
-import { Cards } from './components/Cards/Cards'
-import { Pricing } from './components/Pricing/Pricing'
-import { Footer } from './components/Footer/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+
 import './App.css';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Heroes/>
-      <Cards/>
-      <Pricing/>
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="/Signup" element={<Signup/>}/>
+        </Routes>
+      </Router>
     </>
   );
 }
