@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Logout from "./pages/Logout";
 import Settings from "./pages/Settings";
+import Profile from "./pages/Profile";
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/logout" element={<Logout/>}/>
           <Route path="/settings" element={<Settings/>}/>
+          <Route path="/profile" element={<Profile/>}/>
         </Routes>
       </Router>
     </>

@@ -45,10 +45,12 @@ const Header:any = () => {
                 <strong>$username</strong>
             </a>
             <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
-                <li><a className="dropdown-item" href="#">Aparência</a></li>
-                <li><Link to="/settings" className="dropdown-item">Perfil</Link></li>
+                <li className="nav-link">
+                <Link to="/settings" className="dropdown-item">Configurações</Link>
+                </li>
+                <li className="nav-link"><Link to="/profile" className="dropdown-item">Perfil</Link></li>
                 <li><hr className="dropdown-divider"/></li>
-                <li><Link to="/logout" className="dropdown-item">Sair</Link></li>
+                <li className="nav-link"><Link to="/logout" className="dropdown-item">Sair</Link></li>
             </ul>
             </div>
         </div>
