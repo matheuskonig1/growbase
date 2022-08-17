@@ -1,13 +1,13 @@
 import React from 'react';
 import { Navbar } from '../../components/Navbar/Navbar';
 
-function Login() {
+function Logout() {
   return (
     <>
       <Navbar/>
-      <h1> Você está na Login.</h1>
+      <h1> Você está na Logout.</h1>
     </>
   );
 }
 
-export default Login;
+export default Logout;
