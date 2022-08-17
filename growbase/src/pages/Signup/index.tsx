@@ -1,11 +1,10 @@
 import React from 'react';
-import { Navbar } from '../../components/Navbar/Navbar';
+import { SignupForm } from '../../components/SignupForm/SignupForm';
 
 function Signup() {
   return (
-    <>
-      <Navbar/>
-      <h1> Você está na Signup.</h1>
+    <>             
+      <SignupForm></SignupForm>            
     </>
   );
 }
