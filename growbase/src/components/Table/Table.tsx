@@ -1,6 +1,9 @@
 import React from "react";
 import "./Table.css";
 import { Pagination } from "../Pagination/Pagination";
+import { EditButton } from "../EditButton/EditButton";
+import { DeleteButton } from "../DeleteButton/DeleteButton";
+import { AddButton } from "../AddButton/AddButton";
 
 const Table:any = () => {
     return (
@@ -22,109 +25,14 @@ const Table:any = () => {
                         <td>$descrição</td>
                         <td>$detalhamento</td>
                         <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">$id</th>
-                        <td>$descrição</td>
-                        <td>$detalhamento</td>
-                        <td>
-                            <button type="button" className="btn btn-outline-secondary me-3">
-                                <i className="bi bi-pen-fill"></i>
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
-                                <i className="bi bi-trash-fill"></i>
-                            </button>
+                            <EditButton />
+                            <DeleteButton />
                         </td>
                     </tr>
                 </tbody>
                 </table>
-                <Pagination></Pagination>
-                <button type="button" className="btn btn-outline-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Adicionar recado</button>       
+                <Pagination />   
+                <AddButton />       
             </div>
         </>
     )
