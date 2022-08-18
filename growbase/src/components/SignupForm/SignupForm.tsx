@@ -22,7 +22,7 @@ const SignupForm:any = () => {
                           <input type="password" className="form-control bg-transparent text-white" id="floatingCPassword" placeholder="Senha"/>
                           <label className="text-white" htmlFor="floatingCPassword">Confirme sua senha</label>
                         </div>
-                        <button className="w-100 btn btn-lg btn-light mb-3" type="submit">Criar conta</button>
+                        <a className="w-100 btn btn-lg btn-light mb-3" type="submit" onClick="store()">Criar conta</a>
                         <Link to="/login" className="link-primary">Já tenho uma conta.</Link>
                         <p className="mt-5 mb-3 text-muted">© Growbase Inc. 2022</p>
                       </form>
