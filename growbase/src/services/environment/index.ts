@@ -22,5 +22,5 @@ export const environment = {
     /**
      * URL base de consulta dos dados da aplicação.
      */
-    BASE_URL: 'http://localhost:3333'
+    BASE_URL: 'https://api-tasks-list.herokuapp.com/'
 }
