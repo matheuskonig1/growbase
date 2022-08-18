@@ -11,7 +11,7 @@ const Cards:any = () => {
                         <div className="feature col">
                             <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
                             <img className="img-fluid" src="https://shiny-buttercream-377ac5.netlify.app/work.png" height="400"/>
-                            <h2 className="text-white display-6">Organize o job.</h2>
+                            <h2 className="text-white display-6">Organize o trabalho.</h2>
                             <p className="text-white lead">Com o Growbase você cria recados para organizar sua vida profissional.</p>
                         </div>
                         <div className="feature col">
