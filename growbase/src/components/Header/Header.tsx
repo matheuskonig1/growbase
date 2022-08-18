@@ -1,4 +1,5 @@
 import React from "react";
+import { environment } from "../../services/environment";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
@@ -9,7 +10,7 @@ const Header:any = () => {
               <div className="col-lg-2 mysidebar d-flex flex-column flex-shrink-0 p-3 text-bg-dark h-100">
               <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <img src="https://shiny-buttercream-377ac5.netlify.app/main-menu.png" alt="logo" height="40" />
-                <span className="title">Grow</span>
+                <span className="title">{environment.PRODUCT_NAME}</span>
               </Link>
             <hr/>
             <ul className="nav nav-pills flex-column mb-auto">
