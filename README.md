@@ -6,6 +6,7 @@
 <li> React JS </li>
 <li> Typescript </li>
 <li> Bootstrap </li>
+<li> Redux Toolkit </li>
 </ul>
 <h1> 💻 Projeto </h1>
 <p> O Growbase é um sistema de lista de recados desenvolvido utilizando a API da Growdev. </p>
